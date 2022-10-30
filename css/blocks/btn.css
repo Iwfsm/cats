@@ -1,0 +1,18 @@
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 6px 10px;
+    font-size: 18px;
+    gap: 10px;
+    border: none;
+    background-color: var(--bg-secondary-color);
+    color: var(--text-light-color);
+}
+.btn:hover{
+    background-color: var(--bg-main-color);
+    color: black;
+    transition: .5s linear;
+    border: 1px solid black;
+}
